@@ -1,0 +1,83 @@
+/* CSS for VR4ALL */
+/* Casual Cool colors */
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-size: 1.5em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+
+  background-color: #072C36;
+}
+
+h1, h2 {
+  font-family: 'Roboto Slab', serif;
+  margin-top:0px;
+  line-height:100%;
+}
+
+h1 {
+  color: #80A894;
+  font-size: 5em;
+  text-align: center;
+}
+
+h2 {
+  color: #106153;
+  font-size: 3em;
+  text-align: center;
+}
+
+
+#header {
+  height: 100%;
+  width: 100%;
+  display: table;
+}
+
+#title {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+
+/* this is for ipad landscape/protrait mode */ 
+@media only screen and (max-device-width: 1024px) {
+  body {
+    font-size: 1.2em;
+  }
+  h1 {
+    font-size: 3em;
+  }
+  #header {
+    vertical-align:middle;
+    background: url("");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: local;
+  }
+}
+
+/* this is for mobile landscape mode */ 
+@media only screen and (max-width: 640px) {
+  body {
+    font-size: 0.7em;
+  }
+  h1 {
+    font-size: 3em;
+  }
+}
+
+/* this is for mobile portrait mode */
+@media only screen and (max-width: 360px) {
+  body {
+    font-size: 1em;
+  }
+}
